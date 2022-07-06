@@ -1,0 +1,29 @@
+<div class="container mt-4 mb-4">
+    <div class="row product-p">
+        <div class="col-lg-4" *ngFor="let pdt of productData | filter: searchKey: 'productName' | paginate: { itemsPerPage: 6, currentPage: p }">
+            <div class="product-link">
+                <a class="product-box" [routerLink]="['/menu', pdt.id]">
+                    <img src="{{pdt.productImg}}" alt="" class="product-img">
+                    <h4 class="product-name">{{pdt.productName}}</h4>
+                    <p class="product-price">{{pdt.productPrice | currency}}</p>
+                </a>
+
+                <div class="product-icon">
+                    <a class="product-link__icon" [routerLink]="['/menu', pdt.id]">
+                        <i class="pdt-icon__small bi bi-eye-fill"></i>
+                    </a>
+                    <a class="product-link__icon" (click)="addtocart(pdt)">
+                        <i class="pdt-icon__small bi bi-cart-fill"></i>
+                    </a>    
+                    <a class="product-link__icon">
+                        <i class="pdt-icon__small bi bi-heart"></i>
+                    </a>    
+                </div>   
+            </div>
+                
+        </div>
+        <div class="pagination">
+            <pagination-controls class="my-pagination" (pageChange)="p = $event"></pagination-controls>
+        </div>
+    </div>
+</div>

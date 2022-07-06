@@ -1,0 +1,50 @@
+/* Register */
+
+.row {
+    justify-content: center;
+}
+
+.col-lg-4 {
+    display: flex;
+    justify-content: center;
+    width: 42%;
+    padding-bottom: 80px;
+}
+
+.register-header {
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 54px 0;
+}
+
+.register {
+    width: 100%;
+}
+
+.register-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.register-input {
+    width: 100%;
+    margin: 12px 0;
+    height: 48px;
+}
+
+.signup-text {
+    padding: 4px 0;
+    color: #898989;
+}
+
+.signup-link {
+    text-decoration: none;
+}
+
+.signup-btn {
+    width: 100%;
+    margin-top: 8px;
+    height: 48px;
+}

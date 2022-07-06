@@ -1,0 +1,191 @@
+.banner {
+    background-image: url(../../../assets/img/background.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.backgournd-heading {
+    color: var(--white-color);
+    font-size: 2.2rem;
+    font-weight: 600;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.btn-outline-danger:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Info-method */
+
+.info-method {
+    margin: 70px 0;
+    border-bottom: 1px solid #edf0f5;
+}
+
+.col-lg-4 {
+    display: flex;
+}
+
+.flex-icon {
+    margin-top: -9px;
+}
+
+.payment-icon {
+    padding: 0 30px 0 0;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.info-payment {
+    width: 300px;
+}
+
+/* Collection */
+
+.collections {
+    border-bottom: 1px solid #edf0f5;
+}
+
+.collection-space {
+    margin: 68px 110px;
+}
+
+.colllection-contain {
+    text-decoration: none;
+    outline: none;
+}
+
+.collection-box {
+    position: relative;
+}
+
+.collection-img {
+    width: 320px;
+    height: 440px;
+}
+
+.collection-lable {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px 0;
+    color: var(--white-color);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.collection-header {
+    margin-bottom: 0;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Product */
+
+.product {
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+}
+
+.product-header {
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+.product-link {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    color: var(--black-color);
+    transition: transform linear 0.1s;
+    will-change: transform;
+}
+
+.product-link:hover {
+    transform: translateY(-2px);
+}
+
+.product-box {
+    padding: 10px 0px;
+}
+
+.product-img {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
+
+.product-name {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 22px 0 0;
+    font-weight: 500;
+}
+
+.product-price {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.viewmore {
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+/* Sale off */
+
+.w-100 {
+    height: 400px;
+}
+
+.silde-sale-off {
+    border-top: 1px solid #edf0f5;
+    padding-bottom: 20px;
+}
+
+.slide-header {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 8px 0 28px;
+    margin-bottom: 0;
+}
+
+.slide-text {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+.center-item {
+    align-items: center;
+}
+
+.sale-off_body {
+    text-align: center;
+}
+
+.sale-off__header {
+    color: var(--primary-color);
+}
+
+.sale-off__text {
+    color: #999;
+}
+
+.sale-off__link {
+    text-decoration: none;
+    outline: none;
+}
+
+.sale-off__btn {
+    border: none;
+    background-color: var(--primary-color);
+}

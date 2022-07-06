@@ -1,0 +1,66 @@
+/* Login */
+
+.row {
+    justify-content: center;
+}
+
+.col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.login-header {
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 54px 0;
+}
+
+.login {
+    width: 100%;
+}
+
+.login-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.login-input {
+    width: 90%;
+    margin: 12px 0;
+    height: 48px;
+}
+
+.login-fogot {
+    text-decoration: underline;
+    font-style: italic;
+    color: #898989;
+    
+}
+
+.login-btn {
+    width: 90%;
+    margin-top: 16px;
+    height: 48px;
+}
+
+.signup {
+    padding-left: 40px;
+}
+
+.signup-text {
+    padding: 12px 0;
+    color: #898989;
+}
+
+.signup-link {
+    text-decoration: none;
+}
+
+.signup-btn {
+    margin-top: 12px;
+    height: 48px;
+}
+
+

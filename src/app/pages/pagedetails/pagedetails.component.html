@@ -1,0 +1,23 @@
+
+<div class="product-details">
+    <div class="back">
+        <a href="" class="back-link" routerLink="../../menu">
+            <button class="btn btn-light btn-back"><i class="bi bi-arrow-left back-icon"></i> Back</button>
+        </a>
+    </div>
+    <div class="container mt-5 mb-5">
+        <div class="row" *ngFor="let pdt of productData">
+            <div class="col-lg-6 pdt-flex"> 
+                <img src="{{pdt.productImg}}" alt="" class="product-details__img">
+            </div>
+            <div class="col-lg-4 pdt-detail-flex">
+                <h3 class="product-details__name">{{pdt.productName}}</h3>
+                <span class="product-details__description">Product Description</span>
+                <p class="product-details__detail">{{pdt.productDetails}}</p>
+                <p class="product-details__price">{{pdt.productPrice | currency}}</p>
+                <button type="button" class="btn product-details__btn btn-outline-dark" (click)="addtocart(pdt)">Add to cart</button><br/>
+                <button type="button" class="btn product-details__btn btn-outline-dark">Buy it now</button>
+            </div>
+        </div>
+    </div>
+</div>

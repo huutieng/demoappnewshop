@@ -1,0 +1,64 @@
+/* Contact Us */
+
+.row {
+    justify-content: center;
+}
+
+.col-lg-8 {
+    display: flex;
+    padding: 40px 50px 50px;
+}
+
+.contact-us__title {
+    text-align: center;
+    margin: 70px 0 -6px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contact-us__content {
+    margin-right: 14px;
+}
+
+.contact-us__heading {
+    padding-bottom: 4px;
+}
+
+.form-check {
+    padding-bottom: 14px;
+}
+
+.contact-us__btn {
+    margin-top: 12px 0;
+}
+
+.form-control {
+    margin: 16px 0;
+}
+
+.contact-us__info {
+    width: 300px;
+    padding-left: 44px;
+}
+
+.contact-us__heading-info {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-bottom: 18px;
+}
+
+.contact-us__body-info {
+    color: #898989;
+    padding: 6px 0;
+}
+
+.contact-us__icon {
+    color: #898989;
+    font-size: 1.3rem;
+    padding: 0 14px 2px;
+}
+
+.contact-us__link {
+    text-decoration: none;
+    outline: none;
+}
